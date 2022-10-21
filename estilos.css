@@ -10,7 +10,7 @@
 
 .cabecalho {
 
-    
+
     padding-top: 20px;
 }
 
@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     list-style: none;
-      
+
 }
 
 
@@ -63,7 +63,7 @@
     padding-left: 30px;
     padding-right: 30px;
     margin-right: 100px;
-    
+
 }
 
 a {
@@ -81,28 +81,119 @@ a {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 10px;
-    
+
 }
 
 .texto-cabecalho {
     text-align: center;
     font-family: 'Outfit';
-    font-style: normal; 
+    font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 32px;
 
 }
 
-.banner{
+.banner {
     margin-top: 88px;
 }
 
-a{
+a {
     color: #444444;
 }
 
-.icon{
-   position: absolute;
-   
+.icon {
+    position: absolute;
+
+}
+
+.imagem-cabecalho {
+    width: 100%;
+}
+
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #996830;
+}
+
+.tracado {
+    width: 100px;
+    background-color: #996830;
+    font-family: 'Outfit';
+
+}
+
+.linha-servicos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.servicos {
+    border: 1px solid rgb(253, 166, 95);
+    margin: 10px;
+    padding: 10px;
+}
+
+.nossos-servicos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #996830;
+}
+
+.trabalhos {
+    width: 100px;
+    background-color: #996830;
+    font-family: 'Outfit';
+}
+
+.cidade {
+    margin-bottom: 86px;
+    padding-top: 46px;
+}
+
+.papel {
+    margin-bottom: 86px;
+    padding-top: 46px;
+}
+
+.seta {
+    margin-bottom: 86px;
+    padding-top: 46px;
+   text-align-last: center;
+}
+
+.image-sobre {
+    width: auto;
+}
+
+.trabalhos-recentes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #996830;
+}
+
+.casa {
+    width: 100px;
+    background-color: #996830;
+    font-family: 'Outfit';
+}
+
+.rodape {
+    border: 1px solid #D9D9D6;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    justify-content: space-between;   
+}
+
+.icones{
+    margin-left: 1300px;
+    display: flex;  
+    justify-content:flex-start
 }
