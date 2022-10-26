@@ -9,8 +9,6 @@
 }
 
 .cabecalho {
-
-
     padding-top: 20px;
 }
 
@@ -96,6 +94,7 @@ a {
 
 .banner {
     margin-top: 88px;
+    padding-bottom: 128px;
 }
 
 a {
@@ -107,15 +106,26 @@ a {
 
 }
 
+.hr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 112px;
+    gap: 10px;
+    background-color: #2C2C2C;
+}
+
 .imagem-cabecalho {
     width: 100%;
 }
 
 .sobre-nos {
-    display: flex;
     align-items: center;
     justify-content: flex-start;
     color: #996830;
+    margin-top: 194px;
+    margin-left: 75px;
+    display: flex;
 }
 
 .tracado {
@@ -135,7 +145,7 @@ a {
 .servicos {
     border: 1px solid rgb(253, 166, 95);
     margin: 10px;
-    padding: 10px;
+    padding-left: 40px;
 }
 
 .nossos-servicos {
@@ -143,6 +153,20 @@ a {
     align-items: center;
     justify-content: flex-start;
     color: #996830;
+}
+
+.solucoes {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.nossos{
+    padding-left: 117px;
+    padding-bottom: 80px;
+    
 }
 
 .trabalhos {
@@ -164,7 +188,7 @@ a {
 .seta {
     margin-bottom: 86px;
     padding-top: 46px;
-   text-align-last: center;
+    text-align-last: center;
 }
 
 .image-sobre {
@@ -189,11 +213,72 @@ a {
     flex: none;
     order: 0;
     flex-grow: 0;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
-.icones{
+.icones {
     margin-left: 1300px;
-    display: flex;  
-    justify-content:flex-start
+    display: flex;
+    justify-content: flex-start
+}
+
+.lorem-1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 70px;
+    margin-top: 24px;
+}
+
+.lorem-2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 70px;
+    margin-top: 24px;
+}
+
+.sobre {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    margin-left: 70px;
+}
+
+.rodape-sobre {
+    display: flex;
+}
+
+.cabecalho-sobre {
+    display: flex;
+}
+
+.clientes {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    padding-left: 70px;
+}
+
+.projetos {
+    font-family: 'Outfit';
+    display: flex;
+    align-items: center;
+    padding-right: 12%;
+    padding-top: 128px;
+    padding-bottom: 240px;
+}
+
+.textos{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
 }
